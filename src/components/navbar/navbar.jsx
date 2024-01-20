@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link href='/'><span>HOME</span> <FaHome/></Link>
         <Link href='/'><span>ABOUT</span> <FaUserTie/></Link>
         <Link href='/'><span>PORTOFOLIO</span> <IoBriefcase/></Link>
-        <Link href='/'><span>CONTACT</span> <IoMdMail/></Link>
+        <Link href='/contact'><span>CONTACT</span> <IoMdMail/></Link>
     </div>
   )
 }

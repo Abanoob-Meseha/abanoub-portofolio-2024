@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="Abanoub3.png"/>
+        <link rel="icon" type="image/x-icon" href="LOGO_blue.png"/>
       </head>
       <body className={inter.className}>
         <Navbar/>
