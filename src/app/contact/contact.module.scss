@@ -1,0 +1,103 @@
+.title{
+    font-size: 30px;
+    position: relative;
+    width: fit-content;
+    left: 40%;
+    span{
+        color: #00FEFC;
+    }
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 1% 0% 1% 5%;
+    .info{
+        max-width: 40%;
+        h2{
+            margin-top: 4vh;
+            font-size: 20px;
+            position: relative;
+            span{
+                font-size: large;
+                color: #979797;
+                position: absolute;
+                top: -0.1px;
+            }
+            .icon{
+                font-size: 45px;
+                margin-right: 2%;
+                color: #00FEFC;
+            }
+        }
+        .social{
+            margin-top: 5vh;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: x-large;
+                background-color: #2B2A2A;
+                padding: 12px;
+                border-radius: 50%;
+                margin-right: 4%;
+                transition: all 1s;
+                &:hover{
+                    box-shadow: inset 0 0 30px #00FEFC;
+                    background-color: #00FEFC;
+                }
+            }
+        }
+    }
+    .form{
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: x-large;
+            border:solid #00FEFC 2px;
+            border-radius: 35px;
+            padding-left:4%;
+            transition: all 2s;
+            display: flex;
+            align-items: center;
+            margin-top: 5vh;
+            max-width: fit-content;
+            span{
+                margin-right: 15px;
+            }
+            .icon{
+                background-color: #00FEFC;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+            }
+            &:hover{
+                background-color: #00FEFC;
+            }
+        }
+        input{
+            margin-right: 2%;
+            margin-bottom: 2%;
+        }
+        input,textarea{
+            padding: 2% 2%;
+            text-indent: 5%;
+            outline: none;
+            color: white;
+            background-color: #2B2A2A;
+            border-radius: 25px;
+            font-size: medium;
+            &::placeholder{
+                color: white;
+                font-size: medium;
+                font-weight: bold;
+            }
+        }
+        textarea{
+            font-size: x-large;
+            &::placeholder{
+                font-size: x-large;
+            }
+        }
+    }
+}

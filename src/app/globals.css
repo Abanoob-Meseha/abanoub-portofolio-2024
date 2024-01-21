@@ -2,8 +2,9 @@
 :root{
   background-color:#111111;
   color: white;
-  --blue:darkcyan;
+  --blue:#00FEFC;
   --dark:#111111;
+  --gray:#2B2A2A;
 }
 body{
   font-family: 'Kanit',Verdana, Geneva, Tahoma, sans-serif;
@@ -11,5 +12,5 @@ body{
   padding: 0;
 }
 .pageContent{
-  max-width:80%;
+  max-width:90%;
 }
