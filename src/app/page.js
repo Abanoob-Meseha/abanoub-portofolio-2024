@@ -9,7 +9,7 @@ export default function Home() {
     <Fragment>
       <div className={styles.backShape}></div>
       <div className={styles.homeContainer}>
-        <img src='/Abanoub2.png' className={styles.img}/>
+        <img src='/badla4.jpg' className={styles.img}/>
         <div className={styles.info}>
           <h1 className={styles.name}> -- I'M ABANOUB MESEHA.</h1>
           <h1 className={styles.job}> WEB DEVELOPER</h1>

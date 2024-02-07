@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className={styles.nav}>
         <Link href='/'><span>HOME</span> <FaHome/></Link>
-        <Link href='/'><span>ABOUT</span> <FaUserTie/></Link>
+        <Link href='/about'><span>ABOUT</span> <FaUserTie/></Link>
         <Link href='/'><span>PORTOFOLIO</span> <IoBriefcase/></Link>
         <Link href='/contact'><span>CONTACT</span> <IoMdMail/></Link>
     </div>
